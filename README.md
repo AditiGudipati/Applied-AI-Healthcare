@@ -61,7 +61,7 @@ To build an AI system that unifies multi-channel communication (email, chat, IoT
 
 ---
 
-#### 🧱 **Memory Chatbot Model Pipeline**
+#### 🧠 Memory Chatbot Model Pipeline**
 
 ```mermaid
 graph TD
@@ -85,6 +85,7 @@ graph TD
     P -->|Yes| Q[Context Management]
     Q --> A
     P -->|No| R[End Session]
+```
 
 ⚙️ Pipeline Stages
 	•	Query Preprocessing: Cleans and normalizes user input.
@@ -97,6 +98,7 @@ graph TD
 ⸻
 
 🧩 System Architecture
+```mermaid
 graph TB
     A[Web App] --> D[Load Balancer]
     B[Mobile App] --> D
@@ -114,7 +116,7 @@ graph TB
     L --> M
     L --> N[(PostgreSQL)]
     G --> O[(Redis Cache)]
-
+```
 Performance Targets:
 	•	Intent classification: < 100ms
 	•	Vector search: < 200ms
@@ -148,7 +150,8 @@ Current Status:
 ⸻
 
 🧬 Clinical Trial Outcome Predictor – Model Pipeline
-graph TB
+```mermaid
+	graph TB
     subgraph v20["v2.0 - CURRENT DEPLOYED"]
         A1[Original Dataset - 1,138 trials]
         A2[Filter: Remove ≤20 participants → 872 trials]
@@ -168,28 +171,16 @@ graph TB
         B6[Result: Context-aware Predictions]
         B1 --> B2 --> B3 --> B4 --> B5 --> B6
     end
+```
 
-📊 Version Comparison
-Version
-Training Data
-Features
-Trial Type
-Status
-v2.0
-872 trials
-13
-Not functional
-✅ Deployed
-v2.1
-872 trials
-15
-All zeros
-❌ Abandoned
-v2.2
-~6,000 trials
-15
-Real labeled data
-🔄 In Progress
+### 🧩 Version Comparison
+
+| 🔢 **Version** | 🧪 **Trials** | ⚙️ **Features** | 🧠 **Trial Type** | 🚀 **Status** |
+|:---------------|:--------------|:----------------|:------------------|:--------------|
+| **v2.0** | 872 | 13 | Not functional | ❌ Abandoned *(all zeros)* |
+| **v2.1** | 872 | 15 | All zeros | ✅ Deployed |
+| **v2.2** | ~6,000 | 15 | Real labeled data | 🔄 In Progress |
+
 
 🧩 Feature List
 
