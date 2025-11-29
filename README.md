@@ -16,21 +16,6 @@
 > **Independent applied AI projects exploring knowledge integration and predictive modeling in healthcare and clinical operations.**  
 > These initiatives bridge theoretical AI and real-world operations — investigating how intelligent systems can enhance workflow efficiency, knowledge synthesis, and predictive decision-making.
 
----
-
-## 🗂️ Repository Overview
-
-| Folder | Description |
-|---------|-------------|
-| `/total_recall/` | Knowledge Integration Assistant – AI for memory and retrieval |
-| `/clinical_predictor/` | Machine learning model predicting clinical trial outcomes |
-| `/notebooks/` | Jupyter notebooks for experiments, data prep, and feature engineering |
-| `/data/` | Synthetic or sample datasets (if permissible) |
-| `/docs/` | Architectural diagrams, flowcharts, and visuals |
-
-Each folder includes its own README for modular understanding and reproducibility.
-
----
 
 ## 🌟 Why This Matters
 
